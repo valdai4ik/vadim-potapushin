@@ -1,0 +1,177 @@
+/* сбросс стилей  start */
+* {  
+    vertical-align: baselinebaseline;  
+    font-family: inherit;  
+    font-style: inherit;  
+    font-size: 100%;  
+    border: none;  
+    padding: 0;  
+    margin: 0;  
+    }  
+    body {  
+    padding: 5px;  
+    background: url(../img/mooning.png);
+    }  
+    h1, h2, h3, h4, h5, h6, pre, blockquote, form, ul, ol, dl {  
+    margin: 20px 0;  
+    }  
+    li, dd, blockquote {  
+    margin-left: 40px;  
+    }  
+    dt {  
+    font-weight: bold;  
+    }  
+    table {  
+    border-collapse: collapse;  
+    border-spacing: 0;  
+    }
+/* сбросс стилей  end */
+
+.red {
+  color: red;
+  margin:5px;
+  text-align: center;
+}
+
+
+.content{
+    display: block;
+    width: 600px;
+    min-height: 200px;
+    background: url(../img/bgnois.png) #E3E7E8;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.shadow {
+    -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+}
+
+.round {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+.headtxt
+{
+    text-shadow:6px 6px 9px rgba(0,0,0,1);
+    font-weight:bold;
+    color:#F7F7F7;
+    letter-spacing:3pt;
+    word-spacing:2pt;
+    font-size:54px;
+    text-align:center;
+    font-family:impact, sans-serif;
+    line-height:2;
+}
+
+form {
+    width: 100%;
+    margin: 10px;
+}
+
+.todoinput {
+    float: left;
+    width: 570px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: Tahoma, sans-serif;
+    resize: none;
+}
+.tododate {
+    width: 250px;
+    border: 3px solid #cccccc;
+    float: left;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: Tahoma, sans-serif;
+}
+.todobtn {
+    width: 300px;
+    border: 3px solid #cccccc;
+    float: right;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+    font-family: Tahoma, sans-serif;
+}
+
+.todoevents {
+    display: block;
+    background: #f2f2f2;
+    margin: 10px;
+    float: left;
+    width: 500px;
+    min-height: 90px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    resize: vertical;
+    overflow: hidden;
+    resize: none;
+}
+
+a.done {
+    background: url(../img/ready-icon.png) center no-repeat;
+    background-size: contain;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 45px;
+    height: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: Tahoma, sans-serif;
+    resize: vertical;
+    transition: 1s linear;
+}
+a.done:hover { 
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+.cooldown{
+
+     background: #f2f2f2;
+    float: left;
+    width: 500px;
+    height: 20px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    font-family: Tahoma, sans-serif;
+    resize: vertical;
+    transition: 1s linear;
+}
+.cooldown p {
+    color:;
+    font-size: 15px;
+}
+.added {
+    background: #f2f2f2;
+    float: left;
+    width: 500px;
+    height: 20px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    margin-left:10px;
+    margin-top: 20px;
+    font-family: Tahoma, sans-serif;
+    resize: vertical;
+    transition: 1s linear;
+}

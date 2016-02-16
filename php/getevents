@@ -1,0 +1,28 @@
+<?
+
+include '../php/config.php';
+
+$result = mysql_query("SELECT (text, deadline, id) FROM events");
+if (!$result) {
+    die('Неверный запрос: ' . mysql_error());
+}
+
+while($row = mysql_fetch_array($result))
+{
+<div class="content round shadow">
+		<div>
+			<div class="added">
+				<p>До конца срока исполнения: </p>
+			</div>
+			<a class="done" href=""></a>
+			<div class="todoevents">
+
+			</div>
+			<div class="cooldown">
+				<p>До конца срока исполнения: </p>
+			</div>
+		</div>
+</div>
+}
+
+?>
